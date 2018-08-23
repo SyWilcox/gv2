@@ -17,6 +17,16 @@ body {
   src: url("../fonts/lemonaid.otf");
 }
 
+@font-face {
+  font-family: amazon;
+  src: url("../fonts/Amazon.ttf");
+}
+
+@font-face {
+  font-family: magnifika;
+  src: url("../fonts/magnifika.otf");
+}
+
 .main-pic {
   width: 100%;
   height: 800px;
@@ -47,7 +57,8 @@ button {
   height: 100px;
   /* border: 1px solid black; */
   margin-top: -100px;
-  background-color: #2D2D2E;
+  /* background-color: #2D2D2E; */
+  background-image: url("../images/curls.png");
 }
 
 .social {
@@ -125,9 +136,9 @@ button {
 
 .second-section {
   width: 100%;
-  height: 1400px;
+  height: 1470px;
   /* border: 1px solid black; */
-  background-image: url("../images/swirl_pattern.png");
+  background-image: url("../images/full-bloom.png");
 }
 
 .pic-box {
@@ -158,7 +169,7 @@ button {
   height: 360px;
   /* border: 1px solid black; */
   position: relative;
-  top: 90px;
+  top: 60px;
 }
 
 .text-box h1 {
@@ -247,6 +258,7 @@ button {
   margin: 0 auto;
   /* border: 1px solid black; */
   top: 150px;
+  overflow: hidden;
 }
 
 .slide {
@@ -261,7 +273,7 @@ button {
 }
 
 #slide2 {
-  background: center/cover no-repeat url("../images/shake.jpg");
+  background: bottom/cover no-repeat url("../images/shake.jpg");
   opacity: 0;
   top: -405px;
 }
@@ -305,6 +317,7 @@ button {
   margin: 0 auto;
   text-align: center;
   font-size: 5rem;
+  top: -20px;
 }
 
 .tb {
@@ -312,8 +325,26 @@ button {
   height: 180px;
   /* border: 1px solid black; */
   text-align: center;
+  
 }
 
 .tb h3 {
   font-family: Comfortaa;
+}
+
+.tb p{
+  font-family: "Special Elite";
+  font-size: 1.6rem;
+}
+
+.p-move {
+  margin-top: 35px;
+}
+
+/* third section */
+
+.third-section {
+  width: 100%;
+  height: 600px;
+  background-image: url("../images/curls.png");
 }
