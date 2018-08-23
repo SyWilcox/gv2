@@ -1,0 +1,347 @@
+body {
+  background-color: #2D2D2E;
+  overflow-x: hidden;
+}
+
+#container-1 {
+  position: relative;
+  top: -80px;
+}
+
+p {
+  font-size: 130%;
+  color: #bfbfbf;
+}
+
+.menu-class li {
+  list-style-type: none;
+  font: 150%/1.7 lemonaid;
+  color: #b2b2b2;
+}
+
+.menu-class ul {
+  margin-top: 70px;
+}
+
+/* Fonts */
+
+@font-face {
+  font-family: babe1;
+  src: url("../fonts/babe1.ttf");
+}
+
+@font-face {
+  font-family: babe2;
+  src: url("../fonts/babe2.ttf");
+}
+
+@font-face {
+  font-family: lemonaid;
+  src: url("../fonts/lemonaid.otf");
+}
+
+@font-face {
+  font-family: outline;
+  src: url("../fonts/lulo-outline-bold.otf");
+}
+
+@font-face {
+  font-family: lulo-bold;
+  src: url("../fonts/luloBold.otf");
+}
+
+/* Center Nav Bar */
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.center-menu ul li a {
+  font: 2.4em "Libre Barcode 128 Text";
+  margin-top: 5px;
+}
+
+/* Logo */
+
+.logo-div {
+  top: -50px;
+  width: 100%;
+  height: 550px;
+  position: relative;
+  /* border: 1px solid white; */
+  background: url('../images/logo.png') no-repeat center;
+  background-size: contain;
+  z-index: -5;
+}
+
+/* MENU */
+
+.sm-text {
+  font-size: 70%;
+}
+
+.sweet-crepes {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  border: 1px solid white;
+  margin-bottom: 30px;
+}
+
+.sweet-crepes h1 {
+  font: 450% "Libre Barcode 128 Text";
+  color: #b2b2b2;
+  /* text-align: center; */
+  position: relative;
+  left: 15px;
+}
+
+.savoury-crepes {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  border: 1px dashed white;
+  margin-bottom: 15px;
+}
+
+.second-title {
+  font: 74% "outline";
+  position: relative;
+  left: 10px;
+}
+
+.alt-letter {
+  font: 100% "outline";
+}
+
+.lulo-bold {
+  font: 74% "lulo-bold";
+  position: relative;
+  left: 10px;
+}
+
+.savoury-crepes h1 {
+  font: 450% "Libre Barcode 128 Text";
+  color: #b2b2b2;
+  position: relative;
+  left: 15px;
+}
+
+.burgers {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  border: 1px dashed white;
+}
+
+.burgers ul {
+  position: relative;
+  top: -35px;
+}
+
+.burgers h1 {
+  font: 450% "Libre Barcode 128 Text";
+  color: #b2b2b2;
+  position: relative;
+  left: 15px;
+}
+
+.burgers h2 {
+  font: 160% "lemonaid";
+  color: #b2b2b2;
+  position: absolute;
+  top: 2em;
+  left: 10em;
+}
+
+.not-dogs {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  border: 1px solid white;
+}
+
+.not-dogs h1 {
+  font: 450% "Libre Barcode 128 Text";
+  color: #b2b2b2;
+  position: relative;
+  left: 15px;
+}
+
+.sandwiches {
+  margin-top: 30px;
+  width: 100%;
+  height: 550px;
+  position: relative;
+  border: 1px solid white;
+}
+
+.sandwiches h1 {
+  font: 450% "Libre Barcode 128 Text";
+  color: #b2b2b2;
+  position: relative;
+  left: 15px;
+}
+
+.sandwiches ul {
+  position: relative;
+  left: -30px;
+  top: -40px;
+}
+
+.rolls {
+  margin-top: 30px;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  border: 1px dashed white;
+}
+
+.rolls ul {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.rolls h1 {
+  font: 450% "Libre Barcode 128 Text";
+  color: #b2b2b2;
+  position: relative;
+  left: 15px;
+}
+
+#fill1 {
+  position: relative;
+  top: -70px;
+}
+
+#fill2 {
+  position: relative;
+  top: -55px;
+}
+
+#fill3 {
+  position: relative;
+  top: -90px;
+}
+
+.nachos {
+  margin-top: 30px;
+  width: 100%;
+  height: 220px;
+  position: relative;
+  border: 1px solid white;
+}
+
+.nachos h1 {
+  font: 450% "Libre Barcode 128 Text";
+  color: #b2b2b2;
+  position: relative;
+  left: 15px;
+}
+
+.nachos h2 {
+  font: 160% "lemonaid";
+  color: #b2b2b2;
+  position: absolute;
+  top: 1em;
+  left: 10em;
+}
+
+.nachos ul {
+  position: relative;
+  margin-top: 30px;
+}
+
+/* Footer */
+
+.footer {
+  position: relative;
+  top: 70px;
+  width: 100%;
+  height: 200px;
+  background-color: #222222;
+}
+
+.social {
+  width: 200px;
+  height: 50px;
+  position: relative;
+  margin: 0 auto;
+  top: 20px;
+  /* border: 1px solid white; */
+}
+
+.social-buttons {
+  text-align: center;
+  font-size: 1.9em;
+  margin-left: 20px;
+  color: white;
+}
+
+.copywrite p {
+  font: 1.3em "babe2";
+  color: #eaeaea;
+  text-align: center;
+  margin-top: 55px;
+  font-weight: lighter;
+}
+
+.footer-logo {
+  width: 250px;
+  height: 170px;
+  position: relative;
+  margin: 0 auto;
+  /* border: 1px solid white; */
+  background: url("../images/logo.png") no-repeat center;
+  background-size: cover;
+}
+
+.address {
+  width: 100%;
+  height: 130px;
+  /* border: 1px solid white; */
+}
+
+.address h3 {
+  font: 170% "babe1";
+  text-align: center;
+}
+
+#phone-number {
+  font: 150% "babe2";
+  text-align: center;
+  position: relative;
+  top: 5px;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 992px) and (max-width: 1084px) {
+  #fill3 {
+    position: relative;
+    top: -275px;
+    left: 380px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .navbar-inverse {
+    background: none;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logo-div {
+    top: 0px;
+  }
+  .box {
+    width: 100%;
+  }
+}

@@ -1,0 +1,349 @@
+body {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: lulo-bold;
+  src: url("../fonts/luloBold.otf");
+}
+
+@font-face {
+  font-family: great-vibes;
+  src: url("../fonts/GreatVibes.otf");
+}
+
+@font-face {
+  font-family: outline;
+  src: url("../fonts/lulo-outline-bold.otf");
+}
+
+@font-face {
+  font-family: babe2;
+  src: url("../fonts/babe2.ttf");
+}
+
+@font-face {
+  font-family: babe1;
+  src: url("../fonts/babe2.ttf");
+}
+
+@font-face {
+  font-family: kin;
+  src: url("../fonts/kin.ttf");
+}
+
+@font-face {
+  font-family: amazon;
+  src: url("../fonts/Amazon.ttf");
+}
+
+.navbar {
+  position: relative;
+}
+
+.navbar-brand {
+  display: inline-flex;
+  position: absolute;
+  opacity: 0;
+}
+
+.nav-text {
+  font-family: kin;
+  font-size: 4rem;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+ul li {
+  font-family: "outline";
+  text-align: center;
+  font-size: 2rem;
+  position: relative;
+  top: 3px;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-fixed-top {
+  position: fixed !important;
+}
+
+/* .menu-line {} */
+
+.main-area {
+  width: 100%;
+  height: 550px;
+  /* border: 1px solid black; */
+  position: relative;
+  top: -20px;
+}
+
+#logo1 {
+  background-color: #2D2D2E;
+}
+
+#logo {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  top: 80px;
+  margin: 0 auto;
+  background-image: url('../images/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tb {
+  width: 100%;
+  height: 180px;
+  position: relative;
+  top: 40px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.menu-background {
+  width: 100%;
+  height: 5780px;
+  position: relative;
+  top: -20px;
+  background-color: #218280;
+}
+
+/* footer */
+
+#footer {
+  background-color: #111111;
+  height: 300px;
+  position: relative;
+  top: -190px;
+}
+
+#footer-section {
+  width: 100%;
+  heigth: 200px;
+  /* border: 1px solid white; */
+  position: relative;
+  top: 0px;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  background-color: #222222;
+  bottom: 0;
+}
+
+.social {
+  width: 200px;
+  height: 50px;
+  position: relative;
+  margin: 0 auto;
+  top: 20px;
+  /* border: 1px solid white; */
+}
+
+.social-buttons {
+  text-align: center;
+  font-size: 1.9em;
+  margin-left: 20px;
+  color: white;
+}
+
+.copywrite p {
+  font: 1.3em "babe2";
+  color: #eaeaea;
+  text-align: center;
+  margin-top: 55px;
+  font-weight: lighter;
+}
+
+.address {
+  width: 100%;
+  height: 130px;
+  /* border: 1px solid white; */
+  color: #ffffff;
+}
+
+.address h3 {
+  font: 170% "babe1";
+  text-align: center;
+}
+
+#phone-number {
+  font: 150% "babe2";
+  text-align: center;
+  position: relative;
+  top: 5px;
+}
+
+/* menu grid */
+
+#tb1 {
+  height: 250px;
+}
+
+#tb1 h1 {
+  font-family: amazon;
+  font-size: 11rem;
+}
+
+#tb1 h2 {
+  font-family: lulo-bold;
+  font-size: 2.6rem;
+  position: relative;
+  top: 18px;
+}
+
+#tb1 h3 {
+  font-family: lulo-bold;
+  color: #f8f8ff;
+  font-size: 1.8rem;
+  position: relative;
+  top: 4px;
+}
+
+.menu-box {
+  width: 95%;
+  height: 800px;
+  /* border: 1px solid white; */
+  position: relative;
+  margin: 0 auto;
+  margin-top: 50px;
+  color: #f8f8ff;
+}
+
+.menu-list-right {
+  position: relative;
+  left: -110px;
+  float: right;
+}
+
+.menu-box h2 {
+  font-size: 2.6rem;
+}
+
+.menu-box h3 {
+  font-size: 1.8rem;
+}
+
+.menu-box h4 {
+  font-size: 1.4rem;
+}
+
+.price {
+  float: right;
+}
+
+#box-5 {
+  height: 400px;
+}
+
+#box-6 {
+  height: 400px;
+}
+
+#box-7 {
+  height: 820px;
+  position: relative;
+  top: -50px;
+}
+
+.coffee-price {
+  float: right;
+  font-size: 1.8rem;
+}
+
+#menu-download {
+  /* border: 1px solid white; */
+  width: 200px;
+  height: 27px;
+  position: relative;
+  margin: 0 auto;
+  top: 30px;
+}
+
+.fa-cloud-download-alt {
+  font-size: 2rem;
+  color: #f2f2ff;
+}
+
+#download-text {
+  font-size: 1.6rem;
+  display: inline-flex;
+  margin-left: 5px;
+  color: #f2f2ff;
+}
+
+.btn-download {
+  border: 1px solid white;
+  background-color: #218280;
+  padding-bottom: 10px;
+}
+
+.btn-download:hover {
+  background-color: #222222;
+  border: none;
+}
+
+.btn-download:visited {
+  border: 1px solid white;
+  background-color: #218280;
+  padding-bottom: 10px;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* responsive */
+
+@media screen and (min-width: 768px) {
+  .menu-background {
+    height: 3420px;
+  }
+  #footer-section {
+    top: 180px;
+  }
+  #box-7 {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 335px) {
+  #fix1 {
+    position: relative;
+    top: 20px;
+  }
+  #fix2 {
+    position: relative;
+    top: 20px;
+  }
+  #fix3 {
+    position: relative;
+    top: -9px;
+  }
+}
